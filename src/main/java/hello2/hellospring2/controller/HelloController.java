@@ -17,5 +17,4 @@ public class HelloController {
         // 스프링 부트 템플릿엔진 기본 viewName 매핑
         // resource:templates/ + {ViewName} + .html
     }
-
 }
