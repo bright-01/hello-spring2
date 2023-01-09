@@ -27,4 +27,7 @@ public class HelloController {
  * libs 폴더 밑에 .jar 파일 생성됨
  * java -jar *-SNAPSHOT.jar 로 자바 파일 실행
  *
+ *
+ * 잘안되면
+ * ./gradlew clean 후 build 하면 된다
  * */
