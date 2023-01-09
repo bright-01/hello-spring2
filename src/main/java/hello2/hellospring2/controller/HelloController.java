@@ -18,3 +18,13 @@ public class HelloController {
         // resource:templates/ + {ViewName} + .html
     }
 }
+
+
+// gradle 명령어로 build 하기
+/**
+ * 프로젝트 ROOT 에서 ./gradlew build 실행
+ * builc 폴더 생성됨
+ * libs 폴더 밑에 .jar 파일 생성됨
+ * java -jar *-SNAPSHOT.jar 로 자바 파일 실행
+ *
+ * */
