@@ -8,16 +8,13 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 import java.util.Optional;
 
-@Service
-public class MemberService {
+public class Member2Service {
 
     private final MemberRepository memberRepository;
 
-    @Autowired
-    public MemberService(MemberRepository memberRepository) {
+    public Member2Service(MemberRepository memberRepository) {
         this.memberRepository = memberRepository;
     }
-    // DI 는 생성자 주입을 권장함!!
 
 
     /**
